@@ -1,0 +1,84 @@
+Class#1 – 08/10/20
+
+First thing is first:  **START THINKING LIKE A DEVELOPER**
+1.Download latest eclipse from official website
+2.Setup Java on user PC
+3.Refresh JAVA concepts (Items related to Methods, Array, Conditional Statements, Loops
+4.Register on https://stackoverflow.com/ - great for long term growth
+5.Register on https://leetcode.com/  - best for practice and problem solving ability
+6.Register on https://github.com/  - to maintain repository
+7.Download/install: Maven, Jenkins and some other tools
+
+Items to cover in SELENIUM Training:
+	*Selenium WebDriver
+	*TestNG
+	*Maven
+	*ANT
+	*Jenkins
+	*Log4J
+	*Test Excecution reports
+	*Cucumber
+	*Data Driven Framework
+	*Page Object Model Framework
+	*Misc. topics in Selenium WebDriver
+	*GIT Overview
+	
+Simplified SELENIUM WebDriver Architecture
+	*When we run Selenium Scripts(client)then the complete code converts into Jason format.
+	*The generated Jason is sent to the Browser Driver authomatically
+	*Each Browser will have it's own Browser Driver
+	*Browser Drivers communicate with its respective browser and executes the commands by interpreting Json recieved from the browser
+	*Browser Driver recieves responses back from the Browser and sends Json response back to the client
+	
+Selenium is a collection of codes (zipped).  An automation solution…...
+1.	Free, exclusively for web, supports multiple browsers, platforms (windows, Mac, Linux), can be coded in multiple languages (Java, C#, Python, JavaScript, Php, Ruby)
+2.	Selenium IDE => Recording/playback solutions (download the plugin) 
+3.	Selenium RC => no one is using it
+4.	Selenium Web Driver => Very flexible, can use it in any way you want, has all the latest feature
+5.	Selenium Grid => Used for parallel executions, like running 5-10 browsers at a time...…etc.
+
+A Class always needs a package.  Every Class file is a Test Case.  
+public static void main(String[] args) 
+    {} //is a method that will always run.  
+
+**What is the difference between interface and class, what does implement an interface mean?  Why do we need a web driver object?
+A class describes the attributes and behaviors of an object. 
+An interface contains behaviors that a class implements. 
+A class may contain abstract methods, concrete methods. 
+An interface contains only abstract methods.
+
+Differences between a Class and an Interface:
+CLASS:																
+The keyword used to create a class is “class”						
+A class can be instantiated i.e, objects of a class can be created.	
+Classes does not support multiple inheritance.						
+It can be inheriting another class.									
+It can be inherited by another class using the keyword ‘extends’.	
+It can contain constructors.										
+It cannot contain abstract methods.									
+Variables and methods in a class can be declared using any access 
+specifier (public, private, default, protected)						
+Variables in a class can be static, final, or neither.				
+
+INTERFACE:
+The keyword used to create an interface is “interface”
+An Interface cannot be instantiated i.e, objects cannot be created.
+Interface supports multiple inheritance.
+It cannot inherit a class.
+It can be inherited by a class by using the keyword ‘implements’ and it can be inherited by an interface using the keyword ‘extends’.
+It contains abstract methods only.
+It cannot contain constructors.
+All variables and methods in an interface are declared as public.
+All variables are static and final.
+
+You can use Interface to define business logic at Initial level. 
+Interface can be Implemented with any class using implements keyword. 
+There are set of rules to be followed for creating an Interface.
+
+It means two things:
+1. Each class that you create should implement an interface
+2. Every time an object of the class is created, its type should be the interface that the class implements
+
+In its most common form, an interface is a group of related methods with empty bodies.
+
+
